@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="process.cpp" />
+    <ClCompile Include="win32\api\tlhelp32_impl.cpp">
+      <Filter>win32\api</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\close_handle.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\windows_exception.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp" />
+    <ClCompile Include="session_end_reasons.cpp" />
+    <ClCompile Include="win32\api\psapi_impl.cpp">
+      <Filter>win32\api</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\windows_api.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\api\winuser_impl.cpp">
+      <Filter>win32\api</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\api\processthreadsapi_impl.cpp">
+      <Filter>win32\api</Filter>
+    </ClCompile>
+    <ClCompile Include="find_process_error.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="process.h" />
+    <ClInclude Include="win32\api\tlhelp32.h">
+      <Filter>win32\api</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\api\tlhelp32_impl.h">
+      <Filter>win32\api</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\close_handle.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\windows_exception.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h" />
+    <ClInclude Include="session_end_reasons.h" />
+    <ClInclude Include="win32\api\psapi.h">
+      <Filter>win32\api</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\api\psapi_impl.h">
+      <Filter>win32\api</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\windows_api.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\api\winuser.h">
+      <Filter>win32\api</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\api\winuser_impl.h">
+      <Filter>win32\api</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\api\processthreadsapi.h">
+      <Filter>win32\api</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\api\processthreadsapi_impl.h">
+      <Filter>win32\api</Filter>
+    </ClInclude>
+    <ClInclude Include="find_process_error.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{b61133bb-bb43-46cc-acf6-11b4bfd4c628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\api">
+      <UniqueIdentifier>{f7e83b0a-37cb-4a90-975e-080babe6b6b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
